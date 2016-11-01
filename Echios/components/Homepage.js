@@ -32,6 +32,9 @@ export default class Homepage extends Component {
         </Button>
 
         </View>
+          <Image
+            source={{uri: 'https://i.imgur.com/nZT3soB.jpg'}}
+            style={styles.backgroundImage}/>
       </Container>
     );
   }

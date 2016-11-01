@@ -7,6 +7,10 @@ container: {
     alignItems: 'center',
     // backgroundImage: 'https://i.imgur.com/nZT3soB.jpg',
   },
+  backgroundImage: {
+    flex: 1,
+    resizeMode: 'cover',
+  },
   title: {
     fontSize: 40,
     textAlign: 'center',
