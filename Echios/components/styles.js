@@ -8,14 +8,15 @@ container: {
     // backgroundImage: 'https://i.imgur.com/nZT3soB.jpg',
   },
   backgroundImage: {
-    flex: 1,
+    // flex: 1,
     resizeMode: 'cover',
   },
   title: {
     fontSize: 40,
     textAlign: 'center',
-    color: '#ffffff',
+    color: '#000000',
     fontFamily: 'helvetica',
+    // backgroundColor: 'none',
     margin: 50,
     top: 0,
   },

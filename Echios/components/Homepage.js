@@ -15,6 +15,9 @@ export default class Homepage extends Component {
     return (
       <Container>
         <View style={styles.container}>
+          <Image
+            source={{uri: 'https://i.imgur.com/AzANWmh.jpg'}}
+            style={styles.backgroundImage}>
           <Text style={styles.title}>
             Echios
           </Text>
@@ -30,11 +33,8 @@ export default class Homepage extends Component {
           onPress={this.handlePress.bind(this)}>
           Press Me!
         </Button>
-
+        </ Image>
         </View>
-          <Image
-            source={{uri: 'https://i.imgur.com/nZT3soB.jpg'}}
-            style={styles.backgroundImage}/>
       </Container>
     );
   }
